@@ -326,8 +326,6 @@
         width: 50%;
         height:auto;
         position: relative;
-        top: 0%;
-        left: 0%;
         border:0px hidden ;
         border-radius: 10px;
         box-shadow: 5px 5px 50px 5px rgb(0, 140, 168) ;
@@ -341,8 +339,6 @@
         width: 50%;
         height: auto;
         position: relative;
-        /* top: 8%; */
-        left: 0%;
         border:0px hidden ;
         border-radius: 10px;
         box-shadow: 5px 5px 50px 5px rgb(0, 140, 168) ;
@@ -354,8 +350,6 @@
         width: 50%;
         height: auto;
         position: relative;
-        /* top: 8%; */
-        left: 0%;
         border:0px hidden ;
         border-radius: 10px;
         box-shadow: 5px 5px 50px 5px  rgb(0, 140, 168) ;
@@ -367,8 +361,6 @@
         width: 50%;
         height: auto;
         position: relative;
-        /* top: 8%; */
-        left: 0%;
         border:0px hidden ;
         border-radius: 10px;
         box-shadow: 5px 5px 50px 5px  rgb(0, 140, 168) ;
