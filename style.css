@@ -313,7 +313,20 @@
         margin: 10px auto; /* Centers each box */
         padding: 5%; /* Optional padding for spacing within each box */
         box-sizing: border-box; /* Ensures padding doesn't increase overall width */
+       display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
+
+    .box1 img, .box2 img, .box3 img, .box4 img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        object-fit: cover; /* Ensures image fits nicely without overflow */
+        margin-bottom: 10px; /* Adds spacing between the image and paragraph */
+    }
+
     .copyright{
         left: 79%;
     }
