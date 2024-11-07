@@ -1,0 +1,394 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.stick{
+    background-color:rgb(3, 213, 255) ;
+    z-index: 11;
+    height:5vw;
+    top: 0%;
+    position:sticky;
+}
+
+
+.nav{
+    list-style-type:none;
+    display: flex;
+    justify-content: center;
+    /* padding: 0vw 35vw; */
+    font-size: large;
+    /* background-color:rgb(3, 213, 255) ; */
+    font-family: 'hemi';
+    font-size: 2vw;
+    position:fixed;
+    height: 4vh;
+    z-index: 10;
+    left: 25%;
+}
+
+
+.nav li{
+    padding: 1vw;
+    cursor:pointer;
+    padding: 15 px;
+}
+.nav li:hover{
+    color: white;
+    padding: 1vw;
+    cursor:pointer;
+    padding: 15 px;
+}
+
+
+@font-face {
+    font-family:'hemi';
+    src: url('./fonts/hemi\ head\ bd\ it.otf');
+}
+
+
+.container1{
+    /* background-color:rgb(151, 236, 253) ; */
+    height: 37vw;
+    position: relative;
+    display: flex;
+}
+
+.maincontain{
+    background-color:rgb(151, 236, 253) ;
+    height: auto;
+    position: relative;
+    /* display: flex; */
+}
+
+
+
+.container2{
+    /* background-color:rgb(151, 236, 253) ; */
+    height: 45vw;
+    position: relative;
+    display: flex;
+}
+
+
+.foot{
+    background-color:rgb(2, 213, 255) ;
+    height: 5vh;
+    text-align: center;
+    font-family:sans-serif;
+    font-size: 1vw;
+    border: 0px hidden;
+    box-shadow: 10px 10px 5px 50px  rgb(0, 140, 168) ;
+}
+
+
+.foot span{
+    position: relative;
+    top: 25%;
+}
+
+
+
+.box1{
+    background-color:rgb(2, 213, 255) ;
+    width: 21vw;
+    height: 31vw;
+    position: relative;
+    top: 8%;
+    left: 1%;
+    border:0px hidden ;
+    border-radius: 10px;
+    box-shadow: 5px 5px 50px 5px rgb(0, 140, 168) ;
+}
+
+.box1:hover{
+    box-shadow: 5px 5px 50px 5px rgb(255, 255, 255) ;
+    color: white;
+    cursor:grab;
+}
+.box2:hover{
+    cursor:grab;
+    box-shadow: 5px 5px 50px 5px rgb(255, 255, 255) ;
+    color: white;
+}
+.box3:hover{
+    cursor:grab;
+    box-shadow: 5px 5px 50px 5px rgb(245, 245, 245) ;
+    color: white;
+}
+.box4:hover{
+    cursor:grab;
+    box-shadow: 5px 5px 50px 5px rgb(242, 242, 242) ;
+    color: white;
+}
+
+
+.box4{
+    background-color:rgb(2, 213, 255) ;
+    width: 21vw;
+    height: 31vw;
+    position: relative;
+    top: 8%;
+    left: 15%;
+    border:0px hidden ;
+    border-radius: 10px;
+    box-shadow: 5px 5px 50px 5px rgb(0, 140, 168) ;
+}
+
+.box2{
+    background-color:rgb(2, 213, 255) ;
+    width: 21vw;
+    height: 31vw;
+    position: relative;
+    top: 8%;
+    left: 5.5%;
+    border:0px hidden ;
+    border-radius: 10px;
+    box-shadow: 5px 5px 50px 5px  rgb(0, 140, 168) ;
+}
+
+
+.box3{
+    background-color:rgb(2, 213, 255) ;
+    width: 21vw;
+    height: 31vw;
+    position: relative;
+    top: 8%;
+    left: 10%;
+    border:0px hidden ;
+    border-radius: 10px;
+    box-shadow: 5px 5px 50px 5px  rgb(0, 140, 168) ;
+}
+
+
+
+.box1 img{
+    position: relative;
+    width: 94%;
+    left:3%;
+    top: 3%;
+    border-radius: 15px;
+}
+
+.box4 img{
+    position: relative;
+    width: 94%;
+    left:3%;
+    top: 3%;
+    border-radius: 15px;
+}
+
+.box2 img{
+    position: relative;
+    width: 94%;
+    left:3%;
+    top: 3%;
+    border-radius: 15px;
+}
+
+
+.box3 img{
+    position: relative;
+    width: 94%;
+    left:3%;
+    top: 3%;
+    border-radius: 15px;
+}
+
+
+.box1 p{
+    font-family: hemi;
+    position: relative;
+    overflow: auto;
+    height: 50%;
+    left: 3%;
+    width: 95%;
+    top: 3%;
+    bottom: 3%;
+    word-break:break-all;
+    font-size: 1.5vw;
+}
+
+.box4 p{
+    font-family: hemi;
+    position: relative;
+    overflow: auto;
+    height: 50%;
+    left: 3%;
+    width: 95%;
+    top: 3%;
+    bottom: 3%;
+    word-break:break-all;
+    font-size: 1.5vw;
+}
+
+.box2 p{
+    font-family: hemi;
+    position: relative;
+    font-size: 1.5vw;
+    overflow: auto;
+    height: 50%;
+    left: 3%;
+    width: 95%;
+    top: 3%;
+    bottom: 3%;
+    word-break: break-all;
+}
+
+.box3 p{
+    font-family: hemi;
+    position: relative;
+    font-size: 1.5vw;
+    overflow: auto;
+    height: 50%;
+    left: 3%;
+    width: 95%;
+    top: 3%;
+    bottom: 3%;
+    word-break: break-all;
+}
+
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.copyright{
+    position: fixed;
+    bottom: 10%;
+    left: 93%;
+    
+}
+.copyright img{
+    width: 8vh;
+    border: 2px solid rgb(2, 213, 255)  ;
+    border-radius: 50%;
+}
+
+.insta{
+    position: fixed;
+    bottom: 11%;
+    left: 93.5%;
+    background-color: aliceblue;
+    width: 3vh;
+    border: 6px hidden rgb(2, 213, 255)  ;
+    border-radius: 50%;
+    font-size: 1.5vw;
+    text-align: center;
+    padding: 1.2vw;
+    opacity: 0;
+}
+
+
+
+
+#logo img{
+    width: 20vw;
+    /* top: -11%; */
+    /* background-color: yellowgreen; */
+    position: fixed;
+    z-index: 11;
+    padding: 0px 10px 0px 0px;
+}
+
+
+
+@media screen and (max-width:440px){
+    .maincontain{
+        margin: 0;
+        padding: 0;
+    }
+    .container1{
+        /* background-color:rgb(151, 236, 253) ; */
+        height: auto;
+        position: relative;
+        display:list-item;
+        /* padding: 10px; */
+    }
+    .container2{
+        /* background-color:rgb(151, 236, 253) ; */
+        height: auto;
+        position: relative;
+        display: list-item;
+    }
+
+
+
+    .mobial{
+        justify-self:center;
+        margin: 5%;
+    }
+
+    
+    .box1{
+        background-color:rgb(2, 213, 255) ;
+        width: 50%;
+        height:auto;
+        position: relative;
+        top: 0%;
+        left: 0%;
+        border:0px hidden ;
+        border-radius: 10px;
+        box-shadow: 5px 5px 50px 5px rgb(0, 140, 168) ;
+        margin: 0%;
+        padding: 1%;
+    }
+    
+    
+    .box4{
+        background-color:rgb(2, 213, 255) ;
+        width: 50%;
+        height: auto;
+        position: relative;
+        /* top: 8%; */
+        left: 0%;
+        border:0px hidden ;
+        border-radius: 10px;
+        box-shadow: 5px 5px 50px 5px rgb(0, 140, 168) ;
+        margin: 0%;
+    }
+    
+    .box2{
+        background-color:rgb(2, 213, 255) ;
+        width: 50%;
+        height: auto;
+        position: relative;
+        /* top: 8%; */
+        left: 0%;
+        border:0px hidden ;
+        border-radius: 10px;
+        box-shadow: 5px 5px 50px 5px  rgb(0, 140, 168) ;
+    }
+    
+    
+    .box3{
+        background-color:rgb(2, 213, 255) ;
+        width: 50%;
+        height: auto;
+        position: relative;
+        /* top: 8%; */
+        left: 0%;
+        border:0px hidden ;
+        border-radius: 10px;
+        box-shadow: 5px 5px 50px 5px  rgb(0, 140, 168) ;
+    }
+    .copyright{
+        left: 79%;
+    }
+    .insta{
+        position: fixed;
+        bottom: 11%;
+        left: 79%;
+        background-color: aliceblue;
+        width: 3vh;
+        border: 6px hidden rgb(2, 213, 255)  ;
+        border-radius: 50%;
+        font-size: 1.5vw;
+        text-align: center;
+        padding: 6.7vw;
+        opacity: 0;
+    }
+
+    
+}
