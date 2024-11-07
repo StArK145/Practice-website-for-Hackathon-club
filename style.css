@@ -294,76 +294,25 @@
 
 
 
-@media screen and (max-width:440px){
+@media screen and (max-width:768px){
     .maincontain{
         margin: 0;
         padding: 0;
     }
-    .container1{
-        /* background-color:rgb(151, 236, 253) ; */
-        height: auto;
-        position: relative;
-        display:list-item;
-        /* padding: 10px; */
-    }
-    .container2{
-        /* background-color:rgb(151, 236, 253) ; */
-        height: auto;
-        position: relative;
-        display: list-item;
+    .container1, .container2 {
+        display: flex;
+        flex-wrap: wrap; /* Allows items to wrap if they don't fit in a row */
+        justify-content: center; /* Center items horizontally */
+        align-items: center; /* Center items vertically */
     }
 
 
 
-    .mobial{
-        justify-self:center;
-        margin: 5%;
-    }
-
-    
-    .box1{
-        background-color:rgb(2, 213, 255) ;
-        width: 50%;
-        height:auto;
-        position: relative;
-        border:0px hidden ;
-        border-radius: 10px;
-        box-shadow: 5px 5px 50px 5px rgb(0, 140, 168) ;
-        margin: 0%;
-        padding: 1%;
-    }
-    
-    
-    .box4{
-        background-color:rgb(2, 213, 255) ;
-        width: 50%;
-        height: auto;
-        position: relative;
-        border:0px hidden ;
-        border-radius: 10px;
-        box-shadow: 5px 5px 50px 5px rgb(0, 140, 168) ;
-        margin: 0%;
-    }
-    
-    .box2{
-        background-color:rgb(2, 213, 255) ;
-        width: 50%;
-        height: auto;
-        position: relative;
-        border:0px hidden ;
-        border-radius: 10px;
-        box-shadow: 5px 5px 50px 5px  rgb(0, 140, 168) ;
-    }
-    
-    
-    .box3{
-        background-color:rgb(2, 213, 255) ;
-        width: 50%;
-        height: auto;
-        position: relative;
-        border:0px hidden ;
-        border-radius: 10px;
-        box-shadow: 5px 5px 50px 5px  rgb(0, 140, 168) ;
+   .box1, .box2, .box3, .box4 {
+        width: 90%; /* Adjust the width as needed */
+        margin: 10px auto; /* Centers each box */
+        padding: 5%; /* Optional padding for spacing within each box */
+        box-sizing: border-box; /* Ensures padding doesn't increase overall width */
     }
     .copyright{
         left: 79%;
